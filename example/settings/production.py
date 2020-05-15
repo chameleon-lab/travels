@@ -15,7 +15,7 @@ DB_NAME = os.environ.get('DB_NAME')
 DB_PASSWORD = os.environ.get('DB_PASSWORD')
 DB_HOST = os.environ.get('DB_HOST')
 DB_USER = os.environ.get('DB_USER')
-SECRET_KEY = os.environ.get('SECRET_KEY')
+#SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 #BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -31,7 +31,7 @@ SECRET_KEY = 'i=fup6fxvd!iy0jk3fw0n3b+!^asg6ys56+t)6-myvq%c)(=ow'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://travelling-example.herokuapp.com/'
+    'travelling-example.herokuapp.com'
 ]
 
 
